@@ -1,0 +1,19 @@
+Razrabotchick
+-id INT(PK)
+-name TEXT
+-country TEXT
+-workers_count
+
+-----------------------
+Programma
+-id INT(PK)
+-name TEXT
+-razrabotchick TEXT(FP)
+-OS TEXT(FP)
+-Version INTEGER
+
+-----------------------
+OS
+-id Int(PK)
+-name TEXT
+-bitnost INTEGER

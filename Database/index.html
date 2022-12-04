@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Обработка данных форм</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<link rel = "stylesheet" href="style.css">
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+    <form  align="center" action="/cgi-bin/form_razrabotchick.py" >
+
+        <h1 class="text-center">Ввод текста в таблицу "разработчик"</h1>
+        <div  class="mx-auto" style="width: 300px;" >
+        <input type="text" name="TEXT_1" class="form-control" placeholder="Name" aria-label="Name" aria-describedby="basic-addon1" >
+        <input type="text" name="TEXT_2" class="form-control" placeholder="Country" aria-label="Country" aria-describedby="basic-addon1">
+        <input type="text" name="TEXT_3" class="form-control" placeholder="Workers count" aria-label="Workers Count" aria-describedby="basic-addon1">
+        <input type="submit" class="btn btn-success pushb">
+        </div>
+    </form>
+    <form align="center" action="/cgi-bin/form_programma.py">
+        <h1 class="text-center">Ввод текста в таблицу "программа"</h1>
+        <div class="mx-auto"  style="width: 300px;" >
+        <input type="text" name="TEXT_1" class="form-control" placeholder="Developer" aria-label="Developer" aria-describedby="basic-addon1">
+        <input type="text" name="TEXT_2" class="form-control" placeholder="Os" aria-label="Os" aria-describedby="basic-addon1">
+        <input type="text" name="TEXT_3"class="form-control" placeholder="Name" aria-label="Name" aria-describedby="basic-addon1">
+        <input type="text" name="TEXT_4"class="form-control" placeholder="Version" aria-label="Version" aria-describedby="basic-addon1">
+        <input type="submit" class="btn btn-success pushb">
+        </div>
+    </form>
+    <form align="center" action="/cgi-bin/form_os.py">
+        <h1 class="text-center">Ввод текста в таблицу "ОС"</h1>
+        <div id = "myDIV" class="mx-auto" style="width: 300px;" >
+        <input type="text" name="TEXT_1" class="form-control" placeholder="Os" aria-label="Os" aria-describedby="basic-addon1">
+        <input type="text" name="TEXT_2" class="form-control" placeholder="Bit" aria-label="Bit" aria-describedby="basic-addon1">
+        <input type="submit" class="btn btn-success pushb">
+        </div>
+    </form>
+    <form align="center" action="/cgi-bin/base_watch.py">
+        <h1  class="text-center">Просмотреть базу</h1>
+        <input type="submit" class="btn btn-warning pushb">
+    </form>
+
+</body>
+</html>

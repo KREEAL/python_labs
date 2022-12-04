@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<developers>
+    <dev>
+        <id>1</id>
+        <name>Apache</name>
+        <brand>USA</brand>
+        <workers_count>1501</workers_count>
+    </dev>
+    <dev>
+        <id>2</id>
+        <name>Adobe</name>
+        <brand>Britain</brand>
+        <workers_count>751</workers_count>
+    </dev>
+    <dev>
+        <id>3</id>
+        <name>IBM</name>
+        <brand>China</brand>
+        <workers_count>71</workers_count>
+    </dev></developers>

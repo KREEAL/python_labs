@@ -1,0 +1,16 @@
+.pushb{
+    transition: 0.7s
+}
+
+.pushb:hover{
+
+    background:gold
+}
+#myDIV
+{
+    animation: mymove 0.5s infinite;
+}
+@keyframes mymove{
+    from{background-color:red;}
+    to{background-color:blue;}
+}
